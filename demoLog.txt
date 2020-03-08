@@ -1,0 +1,10 @@
+2016.11.16.06.43.19 DEBUG msgID:1 stageName:firstStage msg:1 has started the stage firstStage json:{"msgID":"1","balance":"5000"}
+2016.11.16.06.44.19 DEBUG msgID:1 stageName:firstStage msg:1 has ended the stage firstStage json:{"status":"successful"}
+2016.11.16.06.45.19 DEBUG msgID:2 stageName:firstStage msg:2 has started the stage firstStage json:{"msgID":"2","balance":"7000"}
+2016.11.16.06.46.19 WARNING msgID:2 stageName:firstStage msg:2 has got an exception json:{"error":"balance cannot be negative"}
+2016.11.16.06.46.19 DEBUG msgID:2 stageName:firstStage msg:2 has ended the stage firstStage json:{"status":"unsuccessful"}
+2016.11.16.06.46.19 DEBUG msgID:3 stageName:firstStage msg:3 has started the stage firstStage json:{"msgID":"3","balance":"7000"}
+2016.11.16.06.43.19 DEBUG msgID:4 stageName:firstStage msg:4 has started the stage firstStage json:{"msgID":"4","balance":"5000"}
+2016.11.16.06.46.19 DEBUG msgID:3 stageName:firstStage msg:3 has ended the stage firstStage json:{"status":"successful"}
+2016.11.16.06.46.19 WARNING msgID:4 stageName:firstStage msg:4 has got an exception json:{"error":"balance cannot be negative"}
+2016.11.16.06.46.19 DEBUG msgID:4 stageName:firstStage msg:4 has ended the stage firstStage json:{"status":"unsuccessful"}

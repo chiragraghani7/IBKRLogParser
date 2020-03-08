@@ -5,7 +5,7 @@ class StringMatcher{
     public static void main(final String args[]) throws IOException {
         final HashMap<String, LogDetails> resultMap = new HashMap<>();
         HashMap<String, String> logMaps;
-        final File file = new File("C:\\Users\\Chirag_Raghani\\IB-Java\\demoLog.txt");
+        final File file = new File("C:\\Users\\Chirag_Raghani\\IB-Java\\LogAnalyzer\\demoLog.txt");
 
         final BufferedReader br = new BufferedReader(new FileReader(file));
         String msgID;
