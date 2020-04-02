@@ -1,10 +1,25 @@
-2016.11.16.06.43.19 DEBUG msgID:1 stageName:firstStage msg:1 has started the stage firstStage json:{"msgID":"1","balance":"5000"}
-2016.11.16.06.44.19 DEBUG msgID:1 stageName:firstStage msg:1 has ended the stage firstStage json:{"status":"successful"}
-2016.11.16.06.45.19 DEBUG msgID:2 stageName:firstStage msg:2 has started the stage firstStage json:{"msgID":"2","balance":"7000"}
-2016.11.16.06.46.19 WARNING msgID:2 stageName:firstStage msg:2 has got an exception json:{"error":"balance cannot be negative"}
-2016.11.16.06.46.19 DEBUG msgID:2 stageName:firstStage msg:2 has ended the stage firstStage json:{"status":"unsuccessful"}
-2016.11.16.06.46.19 DEBUG msgID:3 stageName:firstStage msg:3 has started the stage firstStage json:{"msgID":"3","balance":"7000"}
-2016.11.16.06.43.19 DEBUG msgID:4 stageName:firstStage msg:4 has started the stage firstStage json:{"msgID":"4","balance":"5000"}
-2016.11.16.06.46.19 DEBUG msgID:3 stageName:firstStage msg:3 has ended the stage firstStage json:{"status":"successful"}
-2016.11.16.06.46.19 WARNING msgID:4 stageName:firstStage msg:4 has got an exception json:{"error":"balance cannot be negative"}
-2016.11.16.06.46.19 DEBUG msgID:4 stageName:firstStage msg:4 has ended the stage firstStage json:{"status":"unsuccessful"}
+2020.04.02.22.52.56 DEBUG msgID:1 stageName:stage1 msg:Obj1 is in stage1 json:{"msgID":"1","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:1 stageName:stage2 msg:Obj1 is in stage2 json:{"msgID":"1","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:2 stageName:stage1 msg:Obj2 is in stage1 json:{"msgID":"2","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:1 stageName:stage3 msg:Obj1 is in stage3 json:{"msgID":"1","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:2 stageName:stage2 msg:Obj2 is in stage2 json:{"msgID":"2","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:3 stageName:stage1 msg:Obj3 is in stage1 json:{"msgID":"3","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:2 stageName:stage3 msg:Obj2 is in stage3 json:{"msgID":"2","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:1 stageName:stage4 msg:Obj1 is in stage4 json:{"msgID":"1","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:3 stageName:stage2 msg:Obj3 is in stage2 json:{"msgID":"3","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:4 stageName:stage1 msg:Obj4 is in stage1 json:{"msgID":"4","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:3 stageName:stage3 msg:Obj3 is in stage3 json:{"msgID":"3","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:1 stageName:stage5 msg:Obj1 is in stage5 json:{"msgID":"1","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:2 stageName:stage4 msg:Obj2 is in stage4 json:{"msgID":"2","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:5 stageName:stage1 msg:Obj5 is in stage1 json:{"msgID":"5","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:4 stageName:stage2 msg:Obj4 is in stage2 json:{"msgID":"4","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:2 stageName:stage5 msg:Obj2 is in stage5 json:{"msgID":"2","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:3 stageName:stage4 msg:Obj3 is in stage4 json:{"msgID":"3","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:4 stageName:stage3 msg:Obj4 is in stage3 json:{"msgID":"4","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:5 stageName:stage2 msg:Obj5 is in stage2 json:{"msgID":"5","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:4 stageName:stage4 msg:Obj4 is in stage4 json:{"msgID":"4","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:3 stageName:stage5 msg:Obj3 is in stage5 json:{"msgID":"3","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:5 stageName:stage3 msg:Obj5 is in stage3 json:{"msgID":"5","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:4 stageName:stage5 msg:Obj4 is in stage5 json:{"msgID":"4","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:5 stageName:stage4 msg:Obj5 is in stage4 json:{"msgID":"5","status":"successful"}
+2020.04.02.22.52.56 DEBUG msgID:5 stageName:stage5 msg:Obj5 is in stage5 json:{"msgID":"5","status":"successful"}

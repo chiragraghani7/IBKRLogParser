@@ -4,7 +4,7 @@ class LogDetails{
     HashMap<String,String> logDetailMap;
     LogDetails(HashMap<String,String> hm){
         this.logDetailMap = hm;
-        this.stageCount = 0;
+        this.stageCount = 1;
     }
     
 
@@ -12,10 +12,16 @@ class LogDetails{
         this.logDetailMap = hm;
        
         if(logDetailMap.get("json").indexOf("status")!=-1){
-            String splitArray[] = logDetailMap.get("json").split(":");
+            String splitArray[] = logDetailMap.get("json").split("\"status\":");
             if(!splitArray[1].replace("\"", "").startsWith("un")){
+                //System.out.println(splitArray[1].replace("\"", ""));
                 this.stageCount++;
             }
+            // for (String string : splitArray) {
+            //     if(string.replace("\"","").startsWith("un")){
+
+            //     }
+            // }
             
         }
 
